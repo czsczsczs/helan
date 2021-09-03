@@ -1,0 +1,6 @@
+[ 2021-05-15T21:20:33+08:00 ] 118.26.36.169 /index.php?m=api&c=app&a=getPlatformConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+ERR: 無法載入模組:Api
+

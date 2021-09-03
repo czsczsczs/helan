@@ -1,0 +1,101 @@
+[ 2019-11-21T10:19:00+08:00 ] 202.175.81.199 /api/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`title`,`cover`,`cover_width_300`,`latitude`,`longitude`,`created` FROM `hls_active` WHERE `recommend` = 1 AND `latitude` <> 0 AND `deleted` IS NULL ORDER BY created desc LIMIT 10   [ RunTime:0.0013s ]
+SQL: SELECT `id`,`title`,`cover`,`cover_width_300`,`latitude`,`longitude`,`created` FROM `hls_shop` WHERE `recommend` = 1 AND `latitude` <> 0 AND `deleted` IS NULL AND `type` = 'cate' ORDER BY created asc LIMIT 10   [ RunTime:0.0015s ]
+SQL: SELECT `id`,`title`,`cover`,`cover_width_300`,`latitude`,`longitude`,`created` FROM `hls_posts` WHERE `recommend` = 1 AND `latitude` <> 0 AND `deleted` IS NULL ORDER BY created asc LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2019-11-21T10:19:06+08:00 ] 202.175.81.199 /api/detail/type/activity/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-11-21T10:19:11+08:00 ] 202.175.81.199 /api/banner/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_slide` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-11-21T10:19:11+08:00 ] 202.175.81.199 /api/lists/type/shop/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `deleted` IS NULL LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,7   [ RunTime:0.0012s ]
+
+[ 2019-11-21T10:19:13+08:00 ] 202.175.81.199 /api/detail/type/shop/id/126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 126 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-11-21T17:17:41+08:00 ] 202.175.81.199 /api/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title`,`cover`,`cover_width_300`,`latitude`,`longitude`,`created` FROM `hls_active` WHERE `recommend` = 1 AND `latitude` <> 0 AND `deleted` IS NULL ORDER BY created desc LIMIT 10   [ RunTime:0.0013s ]
+SQL: SELECT `id`,`title`,`cover`,`cover_width_300`,`latitude`,`longitude`,`created` FROM `hls_shop` WHERE `recommend` = 1 AND `latitude` <> 0 AND `deleted` IS NULL AND `type` = 'cate' ORDER BY created asc LIMIT 10   [ RunTime:0.0019s ]
+SQL: SELECT `id`,`title`,`cover`,`cover_width_300`,`latitude`,`longitude`,`created` FROM `hls_posts` WHERE `recommend` = 1 AND `latitude` <> 0 AND `deleted` IS NULL ORDER BY created asc LIMIT 10   [ RunTime:0.0011s ]
+

@@ -1,0 +1,3151 @@
+[ 2020-02-16T00:06:40+08:00 ] 114.119.165.172 /Shop/detail/id/94.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 94 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2020-02-16T00:21:02+08:00 ] 54.36.148.27 /Shop/detail/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001992s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2020-02-16T00:24:25+08:00 ] 114.119.143.198 /Posts/detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2020-02-16T00:28:50+08:00 ] 114.119.136.152 /Shop/detail/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2020-02-16T00:53:52+08:00 ] 216.172.56.35 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000486s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2020-02-16T00:54:32+08:00 ] 54.36.148.108 /News/detail/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/NewsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2020-02-16T01:17:05+08:00 ] 114.119.155.210 /Shop/detail/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2020-02-16T01:22:36+08:00 ] 54.36.148.106 /Shop/detail/id/109.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 109 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000562s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000674s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2020-02-16T03:46:27+08:00 ] 54.36.149.93 /StreetHistory/detail/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-02-16T03:51:10+08:00 ] 46.229.168.135 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T03:51:11+08:00 ] 46.229.168.161 /Shop/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `deleted` IS NULL LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 96,12   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2020-02-16T03:51:13+08:00 ] 46.229.168.146 /sitemap.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+ERR: 無法載入控制器:Sitemap.xml
+
+[ 2020-02-16T04:03:21+08:00 ] 54.36.150.16 /Shop/detail/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000577s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2020-02-16T04:07:33+08:00 ] 54.36.149.55 /streetHistory/detail/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000445s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2020-02-16T04:49:16+08:00 ] 54.36.150.171 /Posts/detail/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2020-02-16T05:05:57+08:00 ] 54.36.150.1 /Shop/detail/id/87.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2020-02-16T05:05:58+08:00 ] 54.36.148.244 /Shop/detail/id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2020-02-16T05:07:11+08:00 ] 54.36.150.28 /Shop/detail/id/51.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000268s ]
+
+[ 2020-02-16T05:28:39+08:00 ] 207.46.13.11 /StreetHistory/detail/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2020-02-16T05:39:30+08:00 ] 46.229.168.151 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001980s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T05:39:31+08:00 ] 46.229.168.139 /Shop/detail/id/118.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 118 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000445s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2020-02-16T05:40:09+08:00 ] 54.36.148.187 /Shop/detail/id/107.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 107 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000445s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2020-02-16T05:44:03+08:00 ] 54.36.148.164 /Shop/detail/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000601s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2020-02-16T05:47:18+08:00 ] 46.229.168.131 /Shop/detail/id/100.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2020-02-16T06:13:22+08:00 ] 54.36.150.47 /Shop/detail/id/102.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 102 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2020-02-16T06:42:14+08:00 ] 54.36.150.43 /Shop/detail/id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000568s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2020-02-16T06:43:00+08:00 ] 54.36.150.109 /Shop/detail/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-02-16T06:45:49+08:00 ] 46.229.168.149 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T06:45:50+08:00 ] 46.229.168.151 /Shop/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `deleted` IS NULL LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 60,12   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2020-02-16T06:55:32+08:00 ] 54.36.148.121 /Shop/detail/id/100.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 100 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2020-02-16T07:02:22+08:00 ] 54.36.149.99 /Posts/detail/id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000456s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2020-02-16T07:06:37+08:00 ] 54.36.150.9 /Shop/index/street_id/4/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `street_id` = 4 AND `deleted` IS NULL LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_shop` WHERE `street_id` = 4 AND `deleted` IS NULL ORDER BY created desc LIMIT 24,12   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2020-02-16T07:25:20+08:00 ] 54.36.148.242 /Shop/detail/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2020-02-16T07:58:36+08:00 ] 54.36.148.122 /Shop/index/street_id/2/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `street_id` = 2 AND `deleted` IS NULL LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_shop` WHERE `street_id` = 2 AND `deleted` IS NULL ORDER BY created desc LIMIT 0,12   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2020-02-16T08:23:54+08:00 ] 54.36.149.43 /Posts/detail/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2020-02-16T08:48:24+08:00 ] 46.229.168.132 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T08:48:25+08:00 ] 46.229.168.133 /Shop/detail/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2020-02-16T08:52:34+08:00 ] 54.36.150.2 /Active/detail/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY rand() LIMIT 4   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ActiveController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2020-02-16T08:58:49+08:00 ] 54.36.149.27 /Shop/detail/id/107.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 107 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2020-02-16T08:59:53+08:00 ] 54.36.150.160 /Shop/detail/id/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 59 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2020-02-16T09:01:49+08:00 ] 46.229.168.141 /Shop/index/street_id/2/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `street_id` = 2 AND `deleted` IS NULL LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `street_id` = 2 AND `deleted` IS NULL ORDER BY created desc LIMIT 12,12   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2020-02-16T09:25:52+08:00 ] 54.36.148.38 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000486s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2020-02-16T09:59:23+08:00 ] 46.229.168.150 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T09:59:24+08:00 ] 46.229.168.136 /Shop/detail/id/74.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 74 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2020-02-16T10:18:24+08:00 ] 46.229.168.149 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T10:18:27+08:00 ] 46.229.168.136 /Shop/detail/id/122.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 122 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000568s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2020-02-16T10:23:10+08:00 ] 216.244.66.244 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2020-02-16T10:36:29+08:00 ] 46.229.168.137 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T10:36:30+08:00 ] 46.229.168.134 /Shop/detail/id/65.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000568s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2020-02-16T10:37:14+08:00 ] 216.244.66.244 /Shop/index/street_id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `street_id` = 3 AND `deleted` IS NULL LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `street_id` = 3 AND `deleted` IS NULL ORDER BY created desc LIMIT 12,12   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2020-02-16T11:56:10+08:00 ] 46.229.168.144 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T11:56:12+08:00 ] 46.229.168.143 /Shop/detail/id/70.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2020-02-16T12:39:19+08:00 ] 46.229.168.132 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T12:39:21+08:00 ] 46.229.168.132 /Shop/detail/id/85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 85 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2020-02-16T12:54:13+08:00 ] 46.229.168.149 /Shop/detail/id/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2020-02-16T13:22:32+08:00 ] 66.249.79.39 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T13:22:32+08:00 ] 66.249.79.35 /streetHistory/detail/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2020-02-16T13:59:30+08:00 ] 66.249.79.63 /Shop/detail/id/45.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000456s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000568s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2020-02-16T14:12:25+08:00 ] 46.229.168.143 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T14:12:27+08:00 ] 46.229.168.162 /Shop/index/street_id/4/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `street_id` = 4 AND `deleted` IS NULL LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `street_id` = 4 AND `deleted` IS NULL ORDER BY created desc LIMIT 24,12   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2020-02-16T14:46:03+08:00 ] 54.36.150.97 /Shop/detail/id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2020-02-16T15:13:58+08:00 ] 54.36.149.62 /Shop/detail/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2020-02-16T15:25:46+08:00 ] 54.36.150.34 /Shop/detail/id/63.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 63 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2020-02-16T15:27:08+08:00 ] 66.249.79.39 /Active/detail/id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0048s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=267 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=268 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=269 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=270 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=272 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=273 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=274 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY rand() LIMIT 4   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2020-02-16T15:29:39+08:00 ] 54.36.150.177 /StreetHistory/detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2020-02-16T16:01:59+08:00 ] 46.229.168.148 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T16:02:00+08:00 ] 46.229.168.149 /Shop/detail/id/42.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2020-02-16T16:07:05+08:00 ] 54.36.148.17 /Shop/detail/id/94.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 94 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000456s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2020-02-16T16:07:33+08:00 ] 46.229.168.143 /Shop/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `deleted` IS NULL LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 120,12   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2020-02-16T16:11:15+08:00 ] 54.36.148.246 /Shop/detail/id/115.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 115 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2020-02-16T16:22:19+08:00 ] 165.227.217.101 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000492s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2020-02-16T16:32:52+08:00 ] 54.36.150.179 /Shop/detail/id/86.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 86 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000444s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2020-02-16T17:04:10+08:00 ] 54.36.148.146 /Posts/detail/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2020-02-16T17:04:39+08:00 ] 54.36.148.36 /Shop/detail/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2020-02-16T17:25:45+08:00 ] 54.36.150.93 /Shop/detail/id/87.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0421s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2020-02-16T17:34:10+08:00 ] 46.229.168.138 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T17:34:12+08:00 ] 46.229.168.149 /News/detail/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/NewsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2020-02-16T17:39:51+08:00 ] 54.36.150.187 /Shop/detail/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000459s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2020-02-16T17:51:18+08:00 ] 54.36.148.218 /Shop/detail/id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2020-02-16T18:07:10+08:00 ] 54.36.150.52 /Shop/detail/id/67.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2020-02-16T19:51:44+08:00 ] 66.249.79.35 /News/detail/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/NewsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000443s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2020-02-16T19:57:18+08:00 ] 46.229.168.162 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T19:57:20+08:00 ] 46.229.168.149 /Shop/detail/id/82.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 82 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000445s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000554s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2020-02-16T20:12:56+08:00 ] 66.249.79.35 /Posts/detail/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018438s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020208s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2020-02-16T20:30:16+08:00 ] 46.229.168.161 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T20:30:17+08:00 ] 46.229.168.131 /Shop/detail/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2020-02-16T20:31:29+08:00 ] 66.249.79.35 /Shop/detail/id/72.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2020-02-16T21:16:49+08:00 ] 46.229.168.163 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T21:16:50+08:00 ] 46.229.168.134 /Shop/detail/id/101.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 101 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2020-02-16T21:22:39+08:00 ] 46.229.168.137 /Shop/detail/id/34.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2020-02-16T21:24:51+08:00 ] 66.249.79.35 /Active/detail/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY rand() LIMIT 4   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ActiveController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2020-02-16T21:31:38+08:00 ] 91.208.99.2 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-02-16T21:32:04+08:00 ] 46.229.168.148 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T21:32:05+08:00 ] 46.229.168.134 /Posts/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_posts` WHERE `deleted` IS NULL LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined variable: street_list /home/www/hollandshow.cn/App/Runtime/Cache/Home/dc3f371ca624a633b417a9c7f623cf7a.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2020-02-16T22:43:43+08:00 ] 46.229.168.150 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T22:43:44+08:00 ] 46.229.168.133 /News/detail/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001834s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/NewsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2020-02-16T23:02:05+08:00 ] 46.229.168.142 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T23:02:06+08:00 ] 46.229.168.152 /Shop/detail/id/51.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2020-02-16T23:06:47+08:00 ] 46.229.168.142 /Active/detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY rand() LIMIT 4   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ActiveController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 237 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2020-02-16T23:18:04+08:00 ] 180.163.220.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000482s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2020-02-16T23:18:04+08:00 ] 180.163.220.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `recommend` = 1 ORDER BY re_time desc LIMIT 4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000494s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2020-02-16T23:35:55+08:00 ] 46.229.168.141 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2020-02-16T23:35:59+08:00 ] 46.229.168.140 /Shop/detail/id/71.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 71 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2020-02-16T23:46:14+08:00 ] 66.249.79.63 /Shop/detail/id/91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL ORDER BY rand() LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 91 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+

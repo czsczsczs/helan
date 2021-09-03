@@ -1,0 +1,12 @@
+[ 2021-07-10T08:58:28+08:00 ] 115.224.153.213 //index.php?m=wap&a=index&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+ERR: 無法載入模組:Wap
+
+[ 2021-07-10T08:58:33+08:00 ] 115.224.153.213 //index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%25%2A27an%2Ad%25%2A20updat*exml%281%2Ccon*cat%280x7e%2C%28us*er%28%29%29%2C0x7e%29%2C1%29%23%26modelid%3D1%26catid%3D1%26m%3D1%26f%3Dshadow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+ERR: 無法載入模組:Attachment
+

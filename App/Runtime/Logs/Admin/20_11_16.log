@@ -1,0 +1,650 @@
+[ 2020-11-16T09:20:23+08:00 ] 183.33.130.84 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+
+[ 2020-11-16T09:20:23+08:00 ] 183.33.130.84 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2020-11-16T09:20:24+08:00 ] 183.33.130.84 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2020-11-16T09:20:36+08:00 ] 183.33.130.84 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `hls_admin` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `hls_admin` WHERE `password` = '027b015ad5829f6831006722d14520c7af215f15f5460182f66d877fdb9b15c2' AND `username` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/hollandshow.cn/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2020-11-16T09:20:36+08:00 ] 183.33.130.84 /Admin/Login/verify/1605489636408
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2020-11-16T09:20:36+08:00 ] 183.33.130.84 /Admin/Login/logining.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2020-11-16T09:20:37+08:00 ] 183.33.130.84 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 81 行.
+NOTIC: [8] Undefined variable: exhibitor_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 199 行.
+NOTIC: [8] Undefined variable: speakers_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 200 行.
+NOTIC: [8] Undefined variable: session_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 201 行.
+NOTIC: [8] Undefined variable: page_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 202 行.
+NOTIC: [8] Undefined variable: user_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 203 行.
+NOTIC: [8] Undefined variable: dynamic_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2020-11-16T09:21:18+08:00 ] 183.33.130.84 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2020-11-16T09:21:20+08:00 ] 183.33.130.84 /Admin/News/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b3c39e5358f5d25fdb7fdf3ecbfd6417.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b3c39e5358f5d25fdb7fdf3ecbfd6417.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2020-11-16T09:24:24+08:00 ] 183.33.130.84 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2020-11-16T09:24:26+08:00 ] 183.33.130.84 /Admin/News/edit/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Admin/Controller/NewsController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000430s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/8b404c3a8cc1b6a384374147d3e233ee.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/8b404c3a8cc1b6a384374147d3e233ee.php 第 81 行.
+NOTIC: [8] Undefined index: other /home/www/hollandshow.cn/App/Runtime/Cache/Admin/8b404c3a8cc1b6a384374147d3e233ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2020-11-16T09:24:33+08:00 ] 183.33.130.84 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002254s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-11-16T09:24:34+08:00 ] 183.33.130.84 /Admin/News/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b3c39e5358f5d25fdb7fdf3ecbfd6417.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b3c39e5358f5d25fdb7fdf3ecbfd6417.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2020-11-16T09:28:34+08:00 ] 183.33.130.84 /Admin/Upload/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/hollandshow.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0013s ]
+SQL: INSERT INTO `hls_files` (`save_name`,`save_path`,`extension`,`mime`,`size`) VALUES ('5fb1d5c2e16fb.jpg','/Public/upload/2020-11-16/5fb1d5c2e16fb.jpg','jpg','image/jpeg','69883') [ RunTime:0.0266s ]
+
+[ 2020-11-16T09:28:37+08:00 ] 183.33.130.84 /Admin/News/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: files /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 55 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 55 行.
+NOTIC: [8] Undefined index: validate /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `hls_news` (`title`,`description`,`cover`,`status`,`recommend`,`content`,`images`,`created`,`updated`,`cover_width_300`) VALUES ('瘋堂經典車展助熱賽車','','/Public/upload/2020-11-16/5fb1d5c2e16fb.jpg','published','0','&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: center; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490046600341.jpg&quot; title=&quot;&quot; alt=&quot;瘋堂經典車展助熱賽車.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; text-align: center; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;經典車展捧場者眾&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; text-align: center; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490068353465.jpg&quot; title=&quot;&quot; alt=&quot;瘋堂經典車展助熱賽車2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;車展搞旺整個望德堂區&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; text-align: center; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490077909405.jpg&quot; title=&quot;&quot; alt=&quot;瘋堂經典車展助熱賽車3.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;嘉賓出席原創服裝展&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; margin-bottom: 10px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;瘋堂經典車展助熱賽車&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; margin-bottom: 10px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em; text-indent: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; text-indent: 2em;&quot;&gt;【本報消息】二○二○荷蘭園巡禮之“經典車展”，昨日中午十二時假瘋堂斜巷舉行，邀請經典車文化協會協調多名成員借出十多輛經典名車展出，並派出車模助陣，吸引大批車迷尤其攝影愛好者到場，為大賽車炒熱氣氛。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;今年“經典車展”特別展出日本豐田汽車賽車施力加(Celica)從一九七六年第一代俗稱“哨牙仔”，發展至一九九九年的第七代。該品牌屬豐田著名轎跑車，在本澳受車友愛戴，尤其七十年代第一代在東望洋跑道屢獲殊榮，一九七五年於東望洋大賽勇奪前三名。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;同場還展出三部更具跑味的豐田汽車，部分型號曾於電視劇或電影等出現，頗具吸引力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 2em; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;昨日下午四時，同場舉行“二○二○時尚瘋堂”品牌的故事之澳門原創服裝展，參與者衆。活動至今舉辦第十年，成為戶外時裝表演的品牌之一。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; text-align: right; background-color: rgb(255, 255, 255);&quot;&gt;轉載自2020年11月9日澳門日報&lt;/span&gt;&lt;/p&gt;',NULL,'1605490116','1605490116','/Public/upload/2020-11-16/5fb1d5c2e16fb_width_300.jpg') [ RunTime:0.0301s ]
+
+[ 2020-11-16T09:28:37+08:00 ] 183.33.130.84 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2020-11-16T09:28:39+08:00 ] 183.33.130.84 /Admin/News/edit/id/34.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Admin/Controller/NewsController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/8b404c3a8cc1b6a384374147d3e233ee.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/8b404c3a8cc1b6a384374147d3e233ee.php 第 81 行.
+NOTIC: [8] Undefined index: other /home/www/hollandshow.cn/App/Runtime/Cache/Admin/8b404c3a8cc1b6a384374147d3e233ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2020-11-16T09:28:42+08:00 ] 183.33.130.84 /Admin/News/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0016s ]
+NOTIC: [2] Illegal string offset 'file_id' /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 76 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 76 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: start_time /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: end_time /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: lat /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: lat /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: lng /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: validate /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `hls_news` SET `id`='34',`title`='瘋堂經典車展助熱賽車',`description`='',`cover`='/Public/upload/2020-11-16/5fb1d5c2e16fb.jpg',`status`='published',`recommend`='1',`content`='&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: center; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490046600341.jpg&quot; title=&quot;&quot; alt=&quot;瘋堂經典車展助熱賽車.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; text-align: center; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;經典車展捧場者眾&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; text-align: center; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490068353465.jpg&quot; title=&quot;&quot; alt=&quot;瘋堂經典車展助熱賽車2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;車展搞旺整個望德堂區&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; text-align: center; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490077909405.jpg&quot; title=&quot;&quot; alt=&quot;瘋堂經典車展助熱賽車3.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;嘉賓出席原創服裝展&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; margin-bottom: 10px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;瘋堂經典車展助熱賽車&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; margin-bottom: 10px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em; text-indent: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; text-indent: 2em;&quot;&gt;【本報消息】二○二○荷蘭園巡禮之“經典車展”，昨日中午十二時假瘋堂斜巷舉行，邀請經典車文化協會協調多名成員借出十多輛經典名車展出，並派出車模助陣，吸引大批車迷尤其攝影愛好者到場，為大賽車炒熱氣氛。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;今年“經典車展”特別展出日本豐田汽車賽車施力加(Celica)從一九七六年第一代俗稱“哨牙仔”，發展至一九九九年的第七代。該品牌屬豐田著名轎跑車，在本澳受車友愛戴，尤其七十年代第一代在東望洋跑道屢獲殊榮，一九七五年於東望洋大賽勇奪前三名。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;同場還展出三部更具跑味的豐田汽車，部分型號曾於電視劇或電影等出現，頗具吸引力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 2em; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;昨日下午四時，同場舉行“二○二○時尚瘋堂”品牌的故事之澳門原創服裝展，參與者衆。活動至今舉辦第十年，成為戶外時裝表演的品牌之一。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; text-align: right; background-color: rgb(255, 255, 255);&quot;&gt;轉載自2020年11月9日澳門日報&lt;/span&gt;&lt;/p&gt;',`images`=NULL,`re_time`='1605490122',`updated`='1605490122',`cover_width_300`='/Public/upload/2020-11-16/5fb1d5c2e16fb_width_300.jpg' WHERE ( id=34 ) [ RunTime:0.0305s ]
+
+[ 2020-11-16T09:28:42+08:00 ] 183.33.130.84 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2020-11-16T09:28:53+08:00 ] 183.33.130.84 /Admin/News/edit/id/34.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Admin/Controller/NewsController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000493s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/8b404c3a8cc1b6a384374147d3e233ee.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/8b404c3a8cc1b6a384374147d3e233ee.php 第 81 行.
+NOTIC: [8] Undefined index: other /home/www/hollandshow.cn/App/Runtime/Cache/Admin/8b404c3a8cc1b6a384374147d3e233ee.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2020-11-16T09:29:30+08:00 ] 183.33.130.84 /Admin/News/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0016s ]
+NOTIC: [2] Illegal string offset 'file_id' /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 76 行.
+NOTIC: [8] Uninitialized string offset: 0 /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 76 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 76 行.
+NOTIC: [8] Undefined index: start_time /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 77 行.
+NOTIC: [8] Undefined index: end_time /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 78 行.
+NOTIC: [8] Undefined index: lat /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 82 行.
+NOTIC: [8] Undefined index: lat /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 83 行.
+NOTIC: [8] Undefined index: lng /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 84 行.
+NOTIC: [8] Undefined index: validate /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `hls_news` SET `id`='34',`title`='瘋堂經典車展助熱賽車',`description`='',`cover`='/Public/upload/2020-11-16/5fb1d5c2e16fb.jpg',`status`='published',`recommend`='1',`content`='&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: center; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490046600341.jpg&quot; title=&quot;&quot; alt=&quot;瘋堂經典車展助熱賽車.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; text-align: center; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;經典車展捧場者眾&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; text-align: center; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490068353465.jpg&quot; title=&quot;&quot; alt=&quot;瘋堂經典車展助熱賽車2.jpg&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;車展搞旺整個望德堂區&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; text-align: center; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490077909405.jpg&quot; title=&quot;&quot; alt=&quot;瘋堂經典車展助熱賽車3.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;嘉賓出席原創服裝展&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 0em; margin-bottom: 5px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; margin-bottom: 10px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;瘋堂經典車展助熱賽車&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; margin-bottom: 10px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em; text-indent: 2em;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; text-indent: 2em;&quot;&gt;【本報消息】二〇二〇荷蘭園巡禮之“經典車展”，昨日中午十二時假瘋堂斜巷舉行，邀請經典車文化協會協調多名成員借出十多輛經典名車展出，並派出車模助陣，吸引大批車迷尤其攝影愛好者到場，為大賽車炒熱氣氛。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;今年“經典車展”特別展出日本豐田汽車賽車施力加(Celica)從一九七六年第一代俗稱“哨牙仔”，發展至一九九九年的第七代。該品牌屬豐田著名轎跑車，在本澳受車友愛戴，尤其七十年代第一代在東望洋跑道屢獲殊榮，一九七五年於東望洋大賽勇奪前三名。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;同場還展出三部更具跑味的豐田汽車，部分型號曾於電視劇或電影等出現，頗具吸引力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 2em; color: rgb(55, 53, 53); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; font-size: 18px; color: rgb(63, 63, 63);&quot;&gt;昨日下午四時，同場舉行“二○二○時尚瘋堂”品牌的故事之澳門原創服裝展，參與者衆。活動至今舉辦第十年，成為戶外時裝表演的品牌之一。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; text-align: right; background-color: rgb(255, 255, 255);&quot;&gt;轉載自2020年11月15日澳門日報&lt;/span&gt;&lt;/p&gt;',`images`=NULL,`re_time`='1605490169',`updated`='1605490169',`cover_width_300`='/Public/upload/2020-11-16/5fb1d5c2e16fb_width_300.jpg' WHERE ( id=34 ) [ RunTime:0.0282s ]
+
+[ 2020-11-16T09:29:30+08:00 ] 183.33.130.84 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2020-11-16T09:29:32+08:00 ] 183.33.130.84 /Admin/News/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b3c39e5358f5d25fdb7fdf3ecbfd6417.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b3c39e5358f5d25fdb7fdf3ecbfd6417.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2020-11-16T09:33:13+08:00 ] 183.33.130.84 /Admin/Upload/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/hollandshow.cn/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0014s ]
+SQL: INSERT INTO `hls_files` (`save_name`,`save_path`,`extension`,`mime`,`size`) VALUES ('5fb1d6d9b0ce6.jpg','/Public/upload/2020-11-16/5fb1d6d9b0ce6.jpg','jpg','image/jpeg','74066') [ RunTime:0.0296s ]
+
+[ 2020-11-16T09:33:30+08:00 ] 183.33.130.84 /Admin/News/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: files /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 55 行.
+NOTIC: [2] implode(): Invalid arguments passed /home/www/hollandshow.cn/App/Admin/Model/NewsModel.class.php 第 55 行.
+NOTIC: [8] Undefined index: validate /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `hls_news` (`title`,`description`,`cover`,`status`,`recommend`,`content`,`images`,`re_time`,`created`,`updated`,`cover_width_300`) VALUES ('荷蘭園巡禮音樂節熱鬧','','/Public/upload/2020-11-16/5fb1d6d9b0ce6.jpg','published','1','&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 0em; text-align: center; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38); font-size: 14px;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490259716827.jpg&quot; title=&quot;&quot; alt=&quot;荷蘭園巡禮音樂節熱鬧.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 0em; line-height: normal; text-align: center;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38); font-size: 14px;&quot;&gt;本地樂隊獲邀演出助興&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 0em; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38); font-size: 14px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 0em; line-height: normal; text-align: center;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38); font-size: 14px;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490266625483.jpg&quot; title=&quot;&quot; alt=&quot;荷蘭園巡禮音樂節熱鬧2.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 0em; text-align: center; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38); font-size: 14px;&quot;&gt;活動區內人氣盛&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 0em; line-height: normal;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38); font-size: 14px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 0em; line-height: normal; text-align: center;&quot;&gt;&lt;span style=&quot;text-align: -webkit-center; text-indent: 28px; background-color: rgb(255, 255, 255); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38); font-size: 14px;&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20201116/1605490275136780.jpg&quot; title=&quot;&quot; alt=&quot;荷蘭園巡禮音樂節熱鬧3.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 0em; text-align: center; line-height: normal;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38); font-size: 14px;&quot;&gt;各展攤十分旺場&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;founder-content style=&quot;margin: 0px; padding: 0px;&quot;&gt;&lt;/founder-content&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 20px; margin-bottom: 10px; padding: 0px; font-size: 16px; line-height: 2em;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38);&quot;&gt;荷蘭園巡禮音樂節熱鬧&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 2em; line-height: 2em;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38);&quot;&gt;【本報消息】二〇二〇荷蘭園巡禮音樂節昨在瘋堂斜巷舉行，特邀多支本地樂隊到場獻演助陣外，亦招募了五十多名藝術工作者駐場設攤銷售文創產品，同場設有皮革工作坊等，成功吸引不少居民尤其親子走進望德堂區，助力提振經濟。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 2em; line-height: 2em;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38);&quot;&gt;上述活動於昨日下午二時開始，至傍晚六時結束，儘管於戶外進行，主辦方仍要求凡進入相關區域者須測量體溫及戴上口罩，嚴按當局防疫指引。音樂節為今年巡禮首次加入的項目，邀請多支本地樂隊參演，輪番登場，為在場人士獻唱不同樂曲，各展實力，各有支持者，場面熱鬧。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 2em; line-height: 2em;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38);&quot;&gt;肺炎疫情持續了一段長時間，不少藝術工作者皆期望通過荷蘭園巡禮這平台，擺攤銷售個人特色文創品，公諸同好，增加收入。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 30px; margin-bottom: 30px; padding: 0px; text-indent: 2em; line-height: 2em;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; color: rgb(38, 38, 38);&quot;&gt;現場可見，亦有藝術工作者在入口處擺放特色氣球佈置，尤受小朋友歡迎，紛紛留影“打卡”，為親子提供假期好去處。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: 微软雅黑, &amp;quot;Microsoft YaHei&amp;quot;; text-align: right; background-color: rgb(255, 255, 255);&quot;&gt;轉載自2020年11月16日澳門日報&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;',NULL,'1605490406','1605490406','1605490406','/Public/upload/2020-11-16/5fb1d6d9b0ce6_width_300.jpg') [ RunTime:0.0282s ]
+
+[ 2020-11-16T09:33:30+08:00 ] 183.33.130.84 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/b447d5afee354d4ec2e25fe3ef9e762a.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2020-11-16T10:02:51+08:00 ] 14.17.3.65 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+
+[ 2020-11-16T10:02:51+08:00 ] 14.17.3.65 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2020-11-16T10:05:15+08:00 ] 183.33.130.84 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2020-11-16T11:27:09+08:00 ] 180.163.220.66 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2020-11-16T11:27:15+08:00 ] 180.163.220.3 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-11-16T17:52:49+08:00 ] 47.97.66.35 /index.php/?s=/admin/%5Cthink%5Capp/invokefunction&function=call_user_func&vars%5B0%5D=system&vars%5B1%5D=netstat%20-an
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+ERR: 無法載入控制器:\think\app
+

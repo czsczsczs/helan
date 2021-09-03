@@ -1,0 +1,2103 @@
+[ 2021-05-29T18:27:05+08:00 ] 66.249.68.45 /StreetHistory/detail/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '19' ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '19' ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000464s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant streetHistory - assumed 'streetHistory' /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 209 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 209 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 209 行.
+NOTIC: [8] Use of undefined constant streetHistory - assumed 'streetHistory' /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 214 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 214 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2021-05-29T18:42:03+08:00 ] 114.119.133.251 /Shop/detail/id/110.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 110 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0009s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=472 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=473 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=474 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=475 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '110' ORDER BY id LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '110' ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `recommend` = 1 ORDER BY rand() LIMIT 6   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000609s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 207 行.
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 208 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2021-05-29T18:48:48+08:00 ] 54.36.148.52 /News/detail/id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '29' ORDER BY id LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title` FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '29' ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/NewsController.class.php 第 96 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Use of undefined constant News - assumed 'News' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 220 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 220 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 220 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 225 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 225 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 225 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2021-05-29T18:54:24+08:00 ] 66.249.68.41 /Shop/detail/id/106.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 106 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0010s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=488 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=489 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '106' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '106' ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `recommend` = 1 ORDER BY rand() LIMIT 6   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000563s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 207 行.
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 208 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2021-05-29T19:02:33+08:00 ] 114.119.137.173 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2021-05-29T19:30:02+08:00 ] 114.119.133.251 /Active/detail/id/34.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0010s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=330 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '34' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '34' ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2021-05-29T19:36:38+08:00 ] 114.119.133.236 /Posts/detail/id/34.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '34' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '34' ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000475s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Use of undefined constant Posts - assumed 'Posts' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [8] Use of undefined constant Posts - assumed 'Posts' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 224 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 224 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2021-05-29T19:37:10+08:00 ] 54.36.148.223 /Shop/detail/id/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0009s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=485 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=486 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=487 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '32' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '32' ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `recommend` = 1 ORDER BY rand() LIMIT 6   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000565s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 207 行.
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 208 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2021-05-29T19:42:07+08:00 ] 114.119.144.64 /Shop/detail/id/122.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 122 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0006s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=414 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=415 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=416 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=417 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '122' ORDER BY id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '122' ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `recommend` = 1 ORDER BY rand() LIMIT 6   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000573s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 207 行.
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 208 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2021-05-29T20:07:39+08:00 ] 17.121.113.206 /Active/detail/id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0012s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=267 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=268 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=269 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=270 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=272 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=273 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=274 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '24' ORDER BY id LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '24' ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 /home/www/hollandshow.cn/App/Home/Controller/ActiveController.class.php 第 100 行.
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2021-05-29T20:07:44+08:00 ] 40.77.167.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0012s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0033s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0023s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000526s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2021-05-29T20:24:26+08:00 ] 54.36.148.225 /Shop/detail/id/112.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 112 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0009s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=459 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=462 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '112' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '112' ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `recommend` = 1 ORDER BY rand() LIMIT 6   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000583s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 207 行.
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 208 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2021-05-29T20:26:46+08:00 ] 66.249.68.45 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2021-05-29T20:31:18+08:00 ] 40.77.167.79 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000516s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2021-05-29T20:33:04+08:00 ] 157.55.39.103 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000639s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2021-05-29T21:06:45+08:00 ] 114.119.156.146 /Shop/detail/id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '56' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '56' ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `recommend` = 1 ORDER BY rand() LIMIT 6   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/ShopController.class.php 第 140 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000581s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 207 行.
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 208 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2021-05-29T21:07:38+08:00 ] 185.191.171.19 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2021-05-29T21:07:39+08:00 ] 185.191.171.45 /Shop/detail/id/122.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 122 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0007s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=414 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=415 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=416 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=417 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '122' ORDER BY id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '122' ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `recommend` = 1 ORDER BY rand() LIMIT 6   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 207 行.
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 208 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2021-05-29T21:17:13+08:00 ] 54.36.148.219 /StreetHistory/detail/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '9' ORDER BY id LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '9' ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Use of undefined constant streetHistory - assumed 'streetHistory' /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 209 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 209 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 209 行.
+NOTIC: [8] Use of undefined constant streetHistory - assumed 'streetHistory' /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 214 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 214 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/710d589763cd5d749ce94a7958cdbc65.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2021-05-29T21:19:34+08:00 ] 114.119.148.191 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2021-05-29T21:25:02+08:00 ] 114.119.143.172 /News/detail/id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title` FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '30' ORDER BY id LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title` FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '30' ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/NewsController.class.php 第 96 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000463s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Use of undefined constant News - assumed 'News' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 220 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 220 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 220 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 225 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 225 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 225 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2021-05-29T21:29:57+08:00 ] 157.55.39.85 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2021-05-29T21:33:51+08:00 ] 114.119.131.192 /Active/detail/id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0010s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=335 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '27' ORDER BY id LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '27' ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2021-05-29T22:08:48+08:00 ] 54.36.148.219 /Shop/detail/id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0008s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=494 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=495 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=496 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '29' ORDER BY id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '29' ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `recommend` = 1 ORDER BY rand() LIMIT 6   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 207 行.
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 208 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2021-05-29T22:12:52+08:00 ] 157.55.39.85 /Active/detail/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0009s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=331 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '33' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '33' ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000427s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 235 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2021-05-29T22:14:20+08:00 ] 114.119.133.251 /Posts/detail/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '10' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '10' ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000473s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Use of undefined constant Posts - assumed 'Posts' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [8] Use of undefined constant Posts - assumed 'Posts' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 224 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 224 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2021-05-29T22:18:37+08:00 ] 216.244.66.244 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000533s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000645s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2021-05-29T22:27:21+08:00 ] 216.244.66.244 /Posts/detail/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '19' ORDER BY id LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '19' ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000472s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Use of undefined constant Posts - assumed 'Posts' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [8] Use of undefined constant Posts - assumed 'Posts' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 224 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 224 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2021-05-29T22:38:37+08:00 ] 157.55.39.6 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000530s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2021-05-29T22:47:36+08:00 ] 66.249.68.45 /Shop/detail/id/106.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 106 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0010s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=488 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=489 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '106' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '106' ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' AND `recommend` = 1 ORDER BY rand() LIMIT 6   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000587s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 207 行.
+NOTIC: [8] Undefined variable: post /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 208 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 218 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 223 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 272 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant Shop - assumed 'Shop' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/8fb202fbf98965ec9534ee7b37c036b3.php 第 361 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2021-05-29T22:51:19+08:00 ] 157.55.39.23 /Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 0,12   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2021-05-29T22:58:56+08:00 ] 54.36.148.219 /News/detail/id/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_news` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`title` FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '36' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /home/www/hollandshow.cn/App/Home/Controller/NewsController.class.php 第 84 行.
+SQL: SELECT `id`,`title` FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '36' ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/NewsController.class.php 第 96 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000481s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Use of undefined constant News - assumed 'News' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 225 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 225 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php 第 225 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2021-05-29T23:06:40+08:00 ] 114.119.133.251 /Shop/index/street_id/5/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_shop` WHERE `street_id` = 5 AND `deleted` IS NULL AND `status` = 'published' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_shop` WHERE `street_id` = 5 AND `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 0,12   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2021-05-29T23:20:10+08:00 ] 49.89.165.231 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2021-05-29T23:29:42+08:00 ] 13.233.73.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0015s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0031s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2021-05-29T23:29:44+08:00 ] 13.233.73.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000629s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2021-05-29T23:29:47+08:00 ] 13.233.73.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000547s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2021-05-29T23:29:47+08:00 ] 13.233.73.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000645s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2021-05-29T23:29:49+08:00 ] 13.233.73.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_introduce` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_community_image` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `hls_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY re_time desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hls_community_image` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 10   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Home\Model\StreetHistoryModel::indeHistory(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 67 and defined /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/StreetHistoryModel.class.php 第 19 行.
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY sort desc,created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\ShopModel::indexShop(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 73 and defined /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/ShopModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Home\Model\PostsModel::indexPosts(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 79 and defined /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 26 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/PostsModel.class.php 第 28 行.
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Home\Model\NewsModel::indexNews(), called in /home/www/hollandshow.cn/App/Home/Controller/IndexController.class.php on line 85 and defined /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 27 行.
+NOTIC: [8] Undefined variable: num /home/www/hollandshow.cn/App/Home/Model/NewsModel.class.php 第 29 行.
+SQL: SELECT * FROM `hls_news` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000531s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2021-05-29T23:33:32+08:00 ] 114.119.152.171 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+ERR: 無法載入控制器:Robots.txt
+
+[ 2021-05-29T23:39:35+08:00 ] 114.119.151.104 /Active/detail/id/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_active` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0011s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=338 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '35' ORDER BY id LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /home/www/hollandshow.cn/App/Home/Controller/ActiveController.class.php 第 90 行.
+SQL: SELECT `id`,`title` FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '35' ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 4   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 240 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant Active - assumed 'Active' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/3345771ac763eb2d6c6fbc161f379a22.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2021-05-29T23:49:15+08:00 ] 54.36.148.219 /Posts/detail/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `hls_active` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hls_active` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY created desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hls_street_history` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_street_history` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_shop` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' ORDER BY rand() LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` > '3' ORDER BY id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `hls_posts` WHERE `deleted` IS NULL AND `status` = 'published' AND `id` < '3' ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 100 行.
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Home/Controller/PostsController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000491s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Use of undefined constant Posts - assumed 'Posts' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+NOTIC: [2] Division by zero /home/www/hollandshow.cn/App/Runtime/Cache/Home/14b933765e4b4daeb993c5fb08b3bf69.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+

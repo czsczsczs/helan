@@ -1,0 +1,99 @@
+<div class="span3">
+            <!-- Search Bar -->
+            <div class="headline"><h3>搜索內容</h3></div>
+            <div class="input-append  margin-bottom-20">
+                <form action="{:U('Search/index')}" method="get">
+                    <input type="text" name="keyword" class="span9" />
+                    <button type="submit" class="btn-u">搜索</button>
+                </form>
+
+            </div>
+
+            <!-- Posts -->
+            <div class="posts margin-bottom-20">
+                <div class="headline"><h3>最新活動</h3></div>
+                <volist name="new_active" id="active">
+                <dl class="dl-horizontal">
+                    <dt><a href="{:U('Active/detail',array('id'=>$active['id']))}"><img src="{$active['cover']}" alt="" /></a></dt>
+                    <dd>
+                        <p><a href="{:U('Active/detail',array('id'=>$active['id']))}">{$active['title']}</a></p>
+                    </dd>
+                </dl>
+                </volist>
+            </div><!--/posts-->
+
+
+    <!-- Posts -->
+    <div class="posts margin-bottom-20">
+        <div class="headline"><h3>圖集推薦</h3></div>
+        <volist name="new_media" id="media">
+            <dl class="dl-horizontal">
+                <dt><a href="{:U('Media/detail',array('id'=>$media['id']))}"><img src="{$media['cover']}" alt="" /></a></dt>
+                <dd>
+                    <p><a href="{:U('Media/detail',array('id'=>$media['id']))}">{$media['title']}</a></p>
+                </dd>
+            </dl>
+        </volist>
+    </div><!--/posts-->
+
+
+
+
+    <!-- Posts -->
+    <div class="posts margin-bottom-20">
+        <div class="headline"><h3>視頻集推薦</h3></div>
+        <volist name="new_media2" id="media2">
+            <dl class="dl-horizontal">
+                <dt><a href="{:U('Media2/detail',array('id'=>$media2['id']))}"><img src="{$media2['cover']}" alt="" /></a></dt>
+                <dd>
+                    <p><a href="{:U('Media2/detail',array('id'=>$media2['id']))}">{$media2['title']}</a></p>
+                </dd>
+            </dl>
+        </volist>
+    </div><!--/posts-->
+
+
+            <!-- Posts -->
+            <div class="posts margin-bottom-20">
+                <div class="headline"><h3>最新資訊</h3></div>
+                <volist name="right_data" id="right_data_row">
+                <dl class="dl-horizontal">
+                    <dt>
+                        <if condition="$right_data_row['type'] eq 'shop'">
+                        <a href="{:U('Shop/detail',array('id'=>$right_data_row['id']))}">
+                        <elseif condition="$right_data_row['type'] eq 'posts'"/>
+                        <a href="{:U('Posts/detail',array('id'=>$right_data_row['id']))}">
+                        <else/>
+                        <a href="{:U('StreetHistory/detail',array('id'=>$right_data_row['id']))}">
+                        </if>
+                        <img src="{$right_data_row['cover_width_300']}" alt="" />
+                        </a>
+                    </dt>
+                    <dd>
+                        <p>
+                        <if condition="$right_data_row['type'] eq 'shop'">
+                        <a href="{:U('Shop/detail',array('id'=>$right_data_row['id']))}">
+                        <elseif condition="$right_data_row['type'] eq 'posts'"/>
+                        <a href="{:U('Posts/detail',array('id'=>$right_data_row['id']))}">
+                        <else/>
+                        <a href="{:U('StreetHistory/detail',array('id'=>$right_data_row['id']))}">
+                        </if>{$right_data_row['title']}</a>
+                        </p>
+                    </dd>
+                </dl>
+                </volist>
+            </div><!--/posts-->
+            <a class="btn" href="#" onClick="javascript :history.back(1);">返回總覽</a>
+    <style>
+        .btn {
+            display: block;
+            position: relative;
+            background: #adadad;
+            padding: 5px;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+    </style>
+        </div>

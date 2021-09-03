@@ -1,0 +1,337 @@
+<include file="common/header" />
+<!--=== End Header ===-->
+
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs margin-bottom-40">
+	<div class="container">
+		<!-- <h1 class="color-green pull-left">Portfolio</h1> -->
+		<ul class="pull-right breadcrumb">
+			<li><a href="{:U('Index/index')}">首頁</a> <span class="divider">/</span></li>
+			<li class="active">媒體報道</li>
+		</ul>
+	</div>
+	<!--/container-->
+</div>
+<!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+<!--=== Content Part ===-->
+<!-- <ul id="myTab" class="nav nav-tabs">
+	<li class="active"><a href="#photo" data-toggle="tab">圖片集</a></li>
+	<li><a href="#video" data-toggle="tab">視頻影集</a></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade in active" id="photo">
+
+	</div>
+	<div class="tab-pane fade" id="video">
+	</div>
+</div> -->
+
+<!--/container-->
+<!--=== End Content Part ===-->
+<!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<!--=== Footer ===-->
+<div class="wrap">
+
+	<div id="tagContent">
+		<div class="container">
+
+			<div class="row-fluid">
+				<ul id="tag">
+					<li class="current" style="display:none;">圖片集</li>
+					<li style="display:none;">視頻影集</li>
+				</ul>
+				<div id="w">
+					<!-- <div class="sort" id="sort">
+      						<ul class="unstyled inline">
+      		                	<li><a href="#" class="all selected">全部</a></li> -->
+					<!-- <volist name="street_list" id="street">
+      		                	   <li><a href="#" class="street{$street['id']}">{$street['name']}</a></li>
+      		                	</volist> -->
+					<!--     </ul>
+      		            </div> -->
+
+					<ul class="portfolio recent-work clearfix">
+						<volist name="list" id="row">
+							<li data-id="id-1" class="street{$row['street_id']}">
+								<a href="{:U('News/detail',array('id'=>$row['id']))}">
+									<em class="overflow-hidden imgsize"><img src="{$row['cover_width_300']}" alt="" /></em>
+									<span>
+										<strong style="width:250px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{$row['title']}</strong>
+									</span>
+								</a>
+							</li>
+						</volist>
+					</ul>
+					<div class="pagination pagination-large pagination-centered">
+						<ul>{$page}</ul>
+					</div>
+				</div>
+			</div>
+			<!--/row-fluid-->
+		</div>
+		<div class="container" style="display:none;">
+
+			<div class="row-fluid">
+				<div id="w">
+					<!-- <div class="sort" id="sort">
+								<ul class="unstyled inline">
+				                	<li><a href="#" class="all selected">全部</a></li> -->
+					<!-- <volist name="street_list" id="street">
+				                	   <li><a href="#" class="street{$street['id']}">{$street['name']}</a></li>
+				                	</volist> -->
+					<!--     </ul>
+				            </div> -->
+
+					<ul class="portfolio recent-work clearfix">
+						<volist name="list" id="row">
+							<li data-id="id-1" class="street{$row['street_id']}">
+								<a href="{:U('News/detail',array('id'=>$row['id']))}">
+									<em class="overflow-hidden imgsize"><img src="{$row['cover_width_300']}" alt="" /></em>
+									<span>
+										<strong style="width:250px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{$row['title']}</strong>
+									</span>
+								</a>
+							</li>
+						</volist>
+					</ul>
+					<div class="pagination pagination-large pagination-centered">
+						<ul>{$page}</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!--<div class="title">
+			<a class="social weixin" href="javascript:">
+				<div class="qrcode" id="qrcode"></div>
+				&lt;!&ndash; <div class="bigqrcode" id="bigqrcode" style="display: none;"></div> &ndash;&gt;
+				&lt;!&ndash;				<img src="__HOME_PUBLIC__img/footer/wechat.png">&ndash;&gt;
+				<svg t="1628480769448" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8759" width="32" height="32"><path d="M302.787561 407.585224a37.1 37.1 0 1 0 72.214041-17.052045 37.1 37.1 0 1 0-72.214041 17.052045Z" p-id="8760" fill="#707070"></path><path d="M512 0C230.4 0 0 230.4 0 512s230.4 512 512 512 512-230.4 512-512S793.6 0 512 0z m-87.24 683.75c-33.7 0-65.84-5.66-95.2-15.9l-83.11 45.57 25.1-74.03c-59.59-39.07-97.99-100.39-97.99-169.35 0-118.03 112.47-213.71 251.21-213.71 122.97 0 225.28 75.16 246.96 174.43-3.41-0.12-6.83-0.2-10.27-0.2-126.04 0-228.22 86.64-228.23 193.51 0 20.6 3.81 40.44 10.84 59.06-6.38 0.41-12.81 0.62-19.31 0.62z m358.31 87.68l21.08 62.17-72.52-39.77c-21.96 6.53-45.57 10.09-70.17 10.09-117.14 0-212.1-80.52-212.1-179.84s94.96-179.84 212.1-179.84 212.1 80.52 212.1 179.84c0 60.95-35.77 114.82-90.49 147.35z" p-id="8761" fill="#707070"></path><path d="M595.2 568.57m-29.7 0a29.7 29.7 0 1 0 59.4 0 29.7 29.7 0 1 0-59.4 0Z" p-id="8762" fill="#707070"></path><path d="M511.46 436.18c20.49 0 37.1-16.61 37.1-37.1s-16.61-37.1-37.1-37.1c-20.48 0-37.09 16.61-37.1 37.1 0 20.49 16.61 37.1 37.1 37.1z" p-id="8763" fill="#707070"></path><path d="M733.38 568.57m-29.7 0a29.7 29.7 0 1 0 59.4 0 29.7 29.7 0 1 0-59.4 0Z" p-id="8764" fill="#707070"></path></svg>
+			</a>
+			&lt;!&ndash;<button type="button" class="active-share-facebook" style="background-image: url(__HOME_PUBLIC__img/footer/facebook.png);"
+                    onclick="shareFacebook()"></button>&ndash;&gt;
+			<button type="button" class="active-share-facebook" onclick="shareFacebook()">
+				<svg t="1628480645627" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2921" width="32" height="32"><path d="M588.288 998.912V651.776h114.176l17.408-137.728H588.288v-88.064c0-22.528 4.608-38.912 13.312-50.176 9.216-11.264 26.112-16.896 52.224-16.896h70.656V235.52c-24.064-3.584-58.368-5.632-102.4-5.632-51.712 0-93.184 15.872-124.416 47.616s-46.592 76.8-46.592 134.656v101.376H336.384v137.728H450.56v349.696C207.36 970.752 18.944 763.392 18.944 512c0-272.384 220.672-493.568 493.568-493.568S1006.08 239.104 1006.08 512c0 246.784-181.248 450.56-417.792 486.912z m-75.264 6.656H512h1.024z" p-id="2922" fill="#707070"></path></svg>
+			</button>
+		</div>-->
+	</div>
+
+	<style type="text/css">
+		.qrcode {
+			margin-left: -37px;
+			margin-top: -300%;
+		}
+
+		.map {
+			width: 40%;
+			height: 300px;
+			margin-left: 15px;
+			top: 20px;
+			left: 30px;
+		}
+
+		.weixin {
+			position: relative;
+			top: 0.86rem;
+		}
+
+
+
+		.weixin div.qrcode {
+			position: absolute;
+			z-index: 99;
+			top: -6px;
+			left: -120px;
+			max-width: none;
+			transform-origin: top right;
+			opacity: 0;
+			border: 1px solid #DDDDDD;
+			border-radius: .25rem;
+			-webkit-transition: all .4s ease-in-out;
+			-o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+
+		}
+
+		.weixin:hover div.qrcode {
+			transform: scale(1);
+			opacity: 1;
+		}
+
+		.line_02 {
+			margin-top: 51px;
+			/* margin-left: 362px;margin-right: 362px; */
+			height: 1px;
+			border-top: 1px solid #ddd;
+			text-align: center;
+		}
+		.line_02 a {
+			position: relative;
+			top: -15px;
+			background: #fff;
+			padding: 0 20px;
+		}
+
+		.line_02 button {
+			position: relative;
+			top: -15px;
+			background: #fff;
+			padding-right: 26px;
+		}
+
+		.active-share-facebook {
+			width: 30px;
+			height: 30px;
+			border: none;
+			background-color: white;
+		}
+
+		#tag {
+			display: flex;
+			position: relative;
+			left: -40px;
+			float: left;
+		}
+
+		#tag li {
+			width: 120px;
+			height: 32px;
+			padding-top: 5px;
+			border-radius: 6px !important;
+			border: 1px solid rgb(245 150 9);
+			margin-left: 20px;
+			color: rgb(245 150 9);
+			font-size: 16px;
+			list-style-type: none;
+			text-align: center;
+
+		}
+
+		@media (max-width: 768px) {
+			#tag {
+				transform: scale(0.8);
+				display: flex;
+				margin-left: -50px;
+			}
+
+			.line_02 {
+				margin-bottom: 30px;
+			}
+
+			.weixin div.qrcode {
+				margin-top: -145px;
+				position: absolute;
+				margin-right: auto;
+				margin-left: auto;
+			}
+
+			.portfolio li {
+				width: 100%;
+			}
+
+			#tag li {}
+		}
+	</style>
+	<style type="text/css">
+		.title {
+			display: table;
+			width: 100%;
+			line-height: 92px;
+			background-color: #fff;
+			white-space: nowrap;
+			border-spacing: .2rem 0;
+			margin-bottom: 20px;
+		}
+
+		.title:before,
+		.title:after {
+			display: table-cell;
+			content: '';
+			width: 50%;
+			background: -webkit-linear-gradient(#dedede, #fff) repeat-x left center;
+			background: linear-gradient(#dedede, #fff) repeat-x left center;
+			background-size: 0.1rem 0.1rem;
+		}
+	</style>
+	<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=YucscdufpGHjsbbnhrjhrLBWFWsulcMq&s=1"></script>
+	<script type="text/javascript" src="../../../../Public/Static/Home/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../Public/Static/Home/js/qrcode.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/css/qrcode.box.css">
+	<script src="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/js/jquery.min.js"></script>
+	<script src="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/js/jquery.qrcode.js"></script>
+	<script src="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/js/qrcode.js"></script>
+	<script src="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/js/jquery.qrcode.box.js"></script>
+	<script type="text/javascript">
+		//分享二维码
+		var wz = "https://www.hollandshow.cn/News/index.html"
+		new QRCode(document.getElementById("qrcode"), wz); // 设置要生成二维码的链接
+		$(".qrcode").qrcodeBox({
+			title: "分享到微信朋友圈",
+			des: "“扫一扫” 即可分享",
+			width: 128,
+			height: 128,
+			qrcodeText: wz,
+			offsetX: 70,
+			offsetY: 100
+		});
+
+		// 使用 API
+		qrcode.clear();
+		qrcode.makeCode('new content');
+	</script>
+	<script type="text/javascript">
+		//分享到facebook
+		function shareToFB(title, url, picurl) {
+			var sharesinastring =
+					'http://www.facebook.com/sharer.php?title=' + title + '&url=' + url + '&content=utf-8&sourceUrl=' + url +
+					'&pic=' + picurl;
+			window.open(sharesinastring, 'newwindow', 'height=400,width=400,top=100,left=100');
+
+		}
+
+		function shareFacebook() {
+			shareToFB("荷蘭園巡禮", wz);
+		}
+		window.onload = function() //onload 事件句柄，文档装载结束时调用
+		{
+			var tag = document.getElementById("tag").children; //获取Tag下的li，即Tag标签
+			var content = document.getElementById("tagContent").children; //获取Tag标签对应的内容
+			tag[0].style.color = "white"
+			tag[0].style.backgroundColor = "rgb(245 150 9)"
+			content[0].style.display = "block"; //默认显示第一个标签的内容
+			var len = tag.length;
+			for (var i = 0; i < len; i++) //无论点击谁都能实现当前显示，其余隐藏
+			{
+				tag[i].index = i; //为何如此？（看下面解释）
+				tag[i].onclick = function() //0级DOM的事件句柄注册
+				{
+
+					for (var n = 0; n < len; n++)
+
+					{
+						tag[n].className = "";
+						content[n].style.display = "none";
+					} //首先将全部的div隐藏
+					tag[this.index].className = "current";
+					content[this.index].style.display = "block";
+					if (this.index == 1) {
+						tag[this.index].style.color = "white"
+						tag[this.index].style.backgroundColor = "rgb(245 150 9)"
+						tag[0].style.color = "rgb(245 150 9)"
+						tag[0].style.backgroundColor = "white"
+					} else {
+						tag[this.index].style.color = "white"
+						tag[this.index].style.backgroundColor = "rgb(245 150 9)"
+						tag[1].style.color = "rgb(245 150 9)"
+						tag[1].style.backgroundColor = "white"
+					}
+
+				}
+			}
+
+		}
+	</script>
+	<include file="common/footer" />

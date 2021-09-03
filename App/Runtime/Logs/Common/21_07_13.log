@@ -1,0 +1,36 @@
+[ 2021-07-13T03:14:40+08:00 ] 182.107.181.34 //index.php?m=wap&a=index&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+ERR: 無法載入模組:Wap
+
+[ 2021-07-13T03:14:40+08:00 ] 182.107.181.34 //index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%25%2A27an%2Ad%25%2A20updat*exml%281%2Ccon*cat%280x7e%2C%28us*er%28%29%29%2C0x7e%29%2C1%29%23%26modelid%3D1%26catid%3D1%26m%3D1%26f%3Dshadow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+ERR: 無法載入模組:Attachment
+
+[ 2021-07-13T11:01:55+08:00 ] 115.237.186.1 //phpsso_server/index.php?m=phpsso&c=index&a=getapplist&auth_data=v=1&appid=1&data=662dCAZSAwgFUlUJBAxbVQJXVghTWVQHVFMEV1MRX11cBFMKBFMGHkUROlhBTVFuW1FJBAUVBwIXRlgeERUHQVlIUVJAA0lRXABSQEwNXAhZVl5V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+ERR: 無法載入模組:Phpsso
+
+[ 2021-07-13T12:22:43+08:00 ] 115.237.254.23 //phpsso_server/index.php?m=phpsso&c=index&a=getapplist&auth_data=v=1&appid=1&data=e5c2VAMGUQZRAQkIUQQKVwFUAgICVgAIAldVBQFDDQVcV0MUQGkAQxVZZlMEGA9+DjZoK1AHRmUwBGcOXW5UDgQhJDxaeQVnGAdxVRcKQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+ERR: 無法載入模組:Phpsso
+
+[ 2021-07-13T19:42:55+08:00 ] 182.107.183.245 //phpsso_server/index.php?m=phpsso&c=index&a=getapplist&auth_data=v=1&appid=1&data=e5c2VAMGUQZRAQkIUQQKVwFUAgICVgAIAldVBQFDDQVcV0MUQGkAQxVZZlMEGA9+DjZoK1AHRmUwBGcOXW5UDgQhJDxaeQVnGAdxVRcKQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+ERR: 無法載入模組:Phpsso
+
+[ 2021-07-13T19:43:35+08:00 ] 182.107.183.245 //phpsso_server/index.php?m=phpsso&c=index&a=getapplist&auth_data=v=1&appid=1&data=662dCAZSAwgFUlUJBAxbVQJXVghTWVQHVFMEV1MRX11cBFMKBFMGHkUROlhBTVFuW1FJBAUVBwIXRlgeERUHQVlIUVJAA0lRXABSQEwNXAhZVl5V
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+ERR: 無法載入模組:Phpsso
+

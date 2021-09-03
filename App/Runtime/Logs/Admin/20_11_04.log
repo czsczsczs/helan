@@ -1,0 +1,1082 @@
+[ 2020-11-04T06:27:28+08:00 ] 5.188.62.140 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+
+[ 2020-11-04T06:27:28+08:00 ] 5.188.62.140 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2020-11-04T06:27:35+08:00 ] 5.188.62.140 /admin.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+
+[ 2020-11-04T06:27:36+08:00 ] 5.188.62.140 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2020-11-04T06:27:40+08:00 ] 5.188.62.140 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+
+[ 2020-11-04T06:27:40+08:00 ] 5.188.62.140 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2020-11-04T06:27:42+08:00 ] 5.188.62.140 /admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+
+[ 2020-11-04T06:27:42+08:00 ] 5.188.62.140 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2020-11-04T11:52:59+08:00 ] 183.33.130.113 /Admin/Shop/index/type/cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002064s ]
+
+[ 2020-11-04T11:52:59+08:00 ] 183.33.130.113 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2020-11-04T11:52:59+08:00 ] 183.33.130.113 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2020-11-04T11:53:08+08:00 ] 183.33.130.113 /Admin/Login/verify/1604461988980
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2020-11-04T11:53:08+08:00 ] 183.33.130.113 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+
+[ 2020-11-04T11:53:15+08:00 ] 183.33.130.113 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+SQL: SHOW COLUMNS FROM `hls_admin` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_admin` WHERE `password` = '027b015ad5829f6831006722d14520c7af215f15f5460182f66d877fdb9b15c2' AND `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/hollandshow.cn/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2020-11-04T11:53:15+08:00 ] 183.33.130.113 /Admin/Login/verify/1604461995868
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-11-04T11:53:15+08:00 ] 183.33.130.113 /Admin/Login/logining.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2020-11-04T11:53:16+08:00 ] 183.33.130.113 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 81 行.
+NOTIC: [8] Undefined variable: exhibitor_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 199 行.
+NOTIC: [8] Undefined variable: speakers_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 200 行.
+NOTIC: [8] Undefined variable: session_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 201 行.
+NOTIC: [8] Undefined variable: page_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 202 行.
+NOTIC: [8] Undefined variable: user_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 203 行.
+NOTIC: [8] Undefined variable: dynamic_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2020-11-04T11:53:56+08:00 ] 183.33.130.113 /Admin/Shop/index/type/cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001992s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hls_shop as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL AND a.type = 'cate' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT a.*,b.name as street_name FROM hls_shop as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL AND a.type = 'cate' ORDER BY created desc LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d68ce727c8ebc1f81462aeabe3e52156.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d68ce727c8ebc1f81462aeabe3e52156.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2020-11-04T11:54:57+08:00 ] 183.33.130.113 /Admin/Shop/edit/id/122/type/cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hls_shop` WHERE `id` = 122 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hls_files` [ RunTime:0.0010s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=414 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=415 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=416 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `save_path`,`extension` FROM `hls_files` WHERE ( id=417 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000489s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/57b2e2b2f92365ac9be1e64a54275001.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/57b2e2b2f92365ac9be1e64a54275001.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2020-11-04T11:55:22+08:00 ] 183.33.130.113 /Admin/Shop/index/type/cate/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hls_shop as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL AND a.type = 'cate' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.name as street_name FROM hls_shop as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL AND a.type = 'cate' ORDER BY created desc LIMIT 10,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d68ce727c8ebc1f81462aeabe3e52156.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d68ce727c8ebc1f81462aeabe3e52156.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2020-11-04T11:59:36+08:00 ] 183.33.130.113 /Admin/Shop/index/type/cate/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hls_shop` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hls_shop as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL AND a.type = 'cate' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.name as street_name FROM hls_shop as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL AND a.type = 'cate' ORDER BY created desc LIMIT 10,10   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d68ce727c8ebc1f81462aeabe3e52156.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d68ce727c8ebc1f81462aeabe3e52156.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-11-04T13:47:09+08:00 ] 183.33.130.113 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2020-11-04T13:47:09+08:00 ] 183.33.130.113 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2020-11-04T13:47:15+08:00 ] 183.33.130.113 /Admin/Login/verify/1604468838057
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2020-11-04T13:47:21+08:00 ] 183.33.130.113 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+SQL: SHOW COLUMNS FROM `hls_admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hls_admin` WHERE `password` = '027b015ad5829f6831006722d14520c7af215f15f5460182f66d877fdb9b15c2' AND `username` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/hollandshow.cn/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2020-11-04T13:47:21+08:00 ] 183.33.130.113 /Admin/Login/verify/1604468843667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2020-11-04T13:47:21+08:00 ] 183.33.130.113 /Admin/Login/logining.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2020-11-04T13:47:22+08:00 ] 183.33.130.113 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 81 行.
+NOTIC: [8] Undefined variable: exhibitor_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 199 行.
+NOTIC: [8] Undefined variable: speakers_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 200 行.
+NOTIC: [8] Undefined variable: session_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 201 行.
+NOTIC: [8] Undefined variable: page_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 202 行.
+NOTIC: [8] Undefined variable: user_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 203 行.
+NOTIC: [8] Undefined variable: dynamic_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2020-11-04T13:47:37+08:00 ] 183.33.130.113 /Admin/Slide/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001997s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: type /home/www/hollandshow.cn/App/Admin/Controller/SlideController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2020-11-04T13:47:39+08:00 ] 183.33.130.113 /Admin/Slide/edit/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hls_slide` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2020-11-04T14:07:45+08:00 ] 183.33.130.113 /Admin/Slide/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `hls_slide` SET `id`='19',`title`='2020荷蘭園巡禮音樂節banner',`url`='https://www.hollandshow.cn/Active/detail/id/26.html',`image`='/Public/upload/2020-10-27/5f97d5d3f334c.png',`status`='published',`recommend`='1',`re_time`='1604470065',`updated`='1604470065' WHERE ( id=19 ) [ RunTime:0.0216s ]
+
+[ 2020-11-04T14:07:45+08:00 ] 183.33.130.113 /Admin/Slide/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: type /home/www/hollandshow.cn/App/Admin/Controller/SlideController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2020-11-04T14:07:49+08:00 ] 183.33.130.113 /Admin/Slide/edit/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2020-11-04T14:08:11+08:00 ] 183.33.130.113 /Admin/Slide/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `hls_slide` SET `id`='18',`title`='2020荷蘭園巡禮賽車游澳門banner',`url`='https://www.hollandshow.cn/Active/detail/id/27.html',`image`='/Public/upload/2020-10-27/5f97d50eea1df.png',`status`='published',`recommend`='1',`re_time`='1604470090',`updated`='1604470090' WHERE ( id=18 ) [ RunTime:0.0258s ]
+
+[ 2020-11-04T14:08:11+08:00 ] 183.33.130.113 /Admin/Slide/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: type /home/www/hollandshow.cn/App/Admin/Controller/SlideController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.018891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2020-11-04T14:08:31+08:00 ] 183.33.130.113 /Admin/Slide/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2020-11-04T14:08:37+08:00 ] 183.33.130.113 /Admin/Slide/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `hls_slide` SET `id`='12',`title`='2020荷蘭園巡禮開幕儀式banner',`url`='https://www.hollandshow.cn/Active/detail/id/35.html',`image`='/Public/upload/2020-10-30/5f9b81634eec3.png',`status`='published',`recommend`='1',`re_time`='1604470117',`updated`='1604470117' WHERE ( id=12 ) [ RunTime:0.0230s ]
+
+[ 2020-11-04T14:08:37+08:00 ] 183.33.130.113 /Admin/Slide/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: type /home/www/hollandshow.cn/App/Admin/Controller/SlideController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2020-11-04T14:08:53+08:00 ] 183.33.130.113 /Admin/Slide/edit/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2020-11-04T14:09:13+08:00 ] 183.33.130.113 /Admin/Slide/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `hls_slide` SET `id`='13',`title`='2020荷蘭園巡禮露天映畫活動banner',`url`='https://www.hollandshow.cn/Active/detail/id/34.html',`image`='/Public/upload/2020-10-27/5f97d4582da13.png',`status`='published',`recommend`='1',`re_time`='1604470153',`updated`='1604470153' WHERE ( id=13 ) [ RunTime:0.0275s ]
+
+[ 2020-11-04T14:09:13+08:00 ] 183.33.130.113 /Admin/Slide/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: type /home/www/hollandshow.cn/App/Admin/Controller/SlideController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2020-11-04T14:09:24+08:00 ] 183.33.130.113 /Admin/Slide/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `hls_slide` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/1e4f1c03c5c7ba7d26431855c42114ee.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2020-11-04T14:09:26+08:00 ] 183.33.130.113 /Admin/Slide/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/hollandshow.cn/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `hls_slide` SET `id`='12',`title`='2020荷蘭園巡禮開幕儀式banner',`url`='https://www.hollandshow.cn/Active/detail/id/35.html',`image`='/Public/upload/2020-10-30/5f9b81634eec3.png',`status`='published',`recommend`='1',`re_time`='1604470166',`updated`='1604470166' WHERE ( id=12 ) [ RunTime:0.0292s ]
+
+[ 2020-11-04T14:09:26+08:00 ] 183.33.130.113 /Admin/Slide/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+SQL: SHOW COLUMNS FROM `hls_slide` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_slide` WHERE `deleted` IS NULL ORDER BY created desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: type /home/www/hollandshow.cn/App/Admin/Controller/SlideController.class.php 第 65 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/d2065425f578ca6b2ecb69480924e82e.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2020-11-04T14:34:01+08:00 ] 183.33.128.38 /Admin/Posts/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+
+[ 2020-11-04T14:34:02+08:00 ] 183.33.128.38 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2020-11-04T14:34:02+08:00 ] 183.33.128.38 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2020-11-04T14:34:08+08:00 ] 183.33.128.38 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: SHOW COLUMNS FROM `hls_admin` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `hls_admin` WHERE `password` = '027b015ad5829f6831006722d14520c7af215f15f5460182f66d877fdb9b15c2' AND `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/hollandshow.cn/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2020-11-04T14:34:08+08:00 ] 183.33.128.38 /Admin/Login/verify/1604471649448
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2020-11-04T14:34:08+08:00 ] 183.33.128.38 /Admin/Login/logining.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2020-11-04T14:34:10+08:00 ] 183.33.128.38 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 81 行.
+NOTIC: [8] Undefined variable: exhibitor_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 199 行.
+NOTIC: [8] Undefined variable: speakers_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 200 行.
+NOTIC: [8] Undefined variable: session_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 201 行.
+NOTIC: [8] Undefined variable: page_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 202 行.
+NOTIC: [8] Undefined variable: user_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 203 行.
+NOTIC: [8] Undefined variable: dynamic_count /home/www/hollandshow.cn/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2020-11-04T14:43:15+08:00 ] 183.33.128.38 /Admin/Posts/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hls_posts as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT a.*,b.name as street_name FROM hls_posts as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL ORDER BY a.created desc LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: type /home/www/hollandshow.cn/App/Admin/Controller/PostsController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/5e72f93f8795a1bb9aa4179a288eec97.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/5e72f93f8795a1bb9aa4179a288eec97.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2020-11-04T14:43:25+08:00 ] 183.33.128.38 /Admin/Posts/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hls_posts as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.name as street_name FROM hls_posts as a  LEFT JOIN hls_street as b ON a.street_id = b.id  WHERE a.deleted IS NULL ORDER BY a.created desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: type /home/www/hollandshow.cn/App/Admin/Controller/PostsController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/5e72f93f8795a1bb9aa4179a288eec97.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/5e72f93f8795a1bb9aa4179a288eec97.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2020-11-04T14:43:34+08:00 ] 183.33.128.38 /Admin/Posts/edit/id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+SQL: SHOW COLUMNS FROM `hls_posts` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `hls_street` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hls_posts` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hls_street` WHERE `deleted` IS NULL ORDER BY created desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: images /home/www/hollandshow.cn/App/Admin/Controller/PostsController.class.php 第 155 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000475s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined variable: title /home/www/hollandshow.cn/App/Runtime/Cache/Admin/5342e398bf4fb39920b5a745447398e2.php 第 4 行.
+NOTIC: [8] Undefined variable: token /home/www/hollandshow.cn/App/Runtime/Cache/Admin/5342e398bf4fb39920b5a745447398e2.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>css3 filter滤镜</title>
+
+        <style>
+
+            .demo{
+
+                width: 400px;
+
+                height: 300px;
+
+                margin: 50px auto;
+
+            }
+            .demo img{
+
+            -webkit-filter: blur(2px), brightness(50%); /*考虑浏览器兼容性：兼容 Chrome, Safari, Opera */
+
+            filter: sepia(50%);/* 给图像设置高斯模糊 */
+
+            }
+            #img1{
+
+            -webkit-filter: blur(2px), brightness(50%); /*考虑浏览器兼容性：兼容 Chrome, Safari, Opera */
+
+            filter: sepia(50%);/* 给图像设置高斯模糊 */
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="demo">
+
+            <img id="img" src="images/1.jpg" />
+
+        </div>
+        <div>
+            <svg  xmlns="http://www.w3.org/2000/svg">
+
+                <foreignObject width="120" height="50">
+
+                <body xmlns="http://www.w3.org/1999/xhtml">
+
+                <img id="img1" src="images/2.jpg" />
+
+                </body>
+
+                </foreignObject>
+
+            </svg>
+        </div>
+        <canvas id="myCanvas" width="250" height="300" style="border:1px solid #d3d3d3;">
+    </body>
+    <script type="text/javascript">
+        var c=document.getElementById("myCanvas");
+        var ctx=c.getContext("2d");
+        var img=document.getElementById("img1");
+
+        img.onload = function() {
+            ctx.drawImage(img,10,10);
+        } 
+    </script>
+</html>

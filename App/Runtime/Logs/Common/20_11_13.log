@@ -1,0 +1,12 @@
+[ 2020-11-13T00:25:44+08:00 ] 27.124.12.71 //index.php?m=wap&siteid=1%E2%80%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+ERR: 無法載入模組:Wap
+
+[ 2020-11-13T00:25:44+08:00 ] 27.124.12.71 //index.php?m=attachment&c=attachments&a=swfupload_json&src=%26i=1%26d=11%26catid=1%26t=23232%26ip=127.0.0.1%26m=3%26modelid=1%26s=caches%252fconfigs%252fdatabase.ph%26f=p%26xxxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+ERR: 無法載入模組:Attachment
+

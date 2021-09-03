@@ -1,0 +1,271 @@
+<include file="common/header" />
+<!--=== End Header ===-->
+
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs margin-bottom-40">
+	<div class="container">
+		<!-- <h1 class="color-green pull-left">Portfolio</h1> -->
+		<ul class="pull-right breadcrumb">
+			<li><a href="{:U('Index/index')}">首頁</a> <span class="divider">/</span></li>
+			<li class="active">媒體中心</li>
+		</ul>
+	</div>
+	<!--/container-->
+</div>
+<!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+<!--=== Content Part ===-->
+<!-- <ul id="myTab" class="nav nav-tabs">
+	<li class="active"><a href="#photo" data-toggle="tab">圖片集</a></li>
+	<li><a href="#video" data-toggle="tab">視頻影集</a></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade in active" id="photo">
+
+	</div>
+	<div class="tab-pane fade" id="video">
+	</div>
+</div> -->
+
+<!--/container-->
+<!--=== End Content Part ===-->
+<!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<!--=== Footer ===-->
+<div class="wrap">
+
+	<div id="tagContent">
+		<div class="container">
+
+			<div class="row-fluid">
+				<ul id="tag">
+					<li><a href="{:U('Media/index')}">圖片集</a></li>
+					<li style="background-color:#f49509;"><a href="{:U('Media2/index')}">視頻集</a></li>
+				</ul>
+				<div id="w">
+
+					<ul class="portfolio recent-work clearfix">
+						<volist name="list" id="row">
+							<li data-id="id-1" class="street{$row['street_id']}">
+								<a href="{:U('Media2/detail',array('id'=>$row['id']))}">
+									<em class="overflow-hidden imgsize"><img src="{$row['cover_width_300']}" alt="" /></em>
+									<span>
+										<strong style="width:250px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">{$row['title']}</strong>
+									</span>
+								</a>
+							</li>
+						</volist>
+					</ul>
+					<div class="pagination pagination-large pagination-centered">
+						<ul>{$page}</ul>
+					</div>
+				</div>
+			</div>
+			<!--/row-fluid-->
+		</div>
+
+	</div>
+
+	<style type="text/css">
+		.qrcode {
+			margin-left: -37px;
+			margin-top: -300%;
+		}
+
+		.map {
+			width: 40%;
+			height: 300px;
+			margin-left: 15px;
+			top: 20px;
+			left: 30px;
+		}
+
+		.weixin {
+			position: relative;
+			top: 0.86rem;
+		}
+
+
+
+		.weixin div.qrcode {
+			position: absolute;
+			z-index: 99;
+			top: -6px;
+			left: -120px;
+			max-width: none;
+			transform-origin: top right;
+			opacity: 0;
+			border: 1px solid #DDDDDD;
+			border-radius: .25rem;
+			-webkit-transition: all .4s ease-in-out;
+			-o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+
+		}
+
+		.weixin:hover div.qrcode {
+			transform: scale(1);
+			opacity: 1;
+		}
+
+		.line_02 {
+			margin-top: 51px;
+			/* margin-left: 362px;margin-right: 362px; */
+			height: 1px;
+			border-top: 1px solid #ddd;
+			text-align: center;
+		}
+		.line_02 a {
+			position: relative;
+			top: -15px;
+			background: #fff;
+			padding: 0 20px;
+		}
+
+		.line_02 button {
+			position: relative;
+			top: -15px;
+			background: #fff;
+			padding-right: 26px;
+		}
+
+		.active-share-facebook {
+			width: 30px;
+			height: 30px;
+			border: none;
+			background-color: white;
+		}
+
+		#tag {
+			display: flex;
+			position: relative;
+			left: -40px;
+			float: left;
+		}
+		@media screen and (max-width: 600px) {
+			#tag {
+				display: flex;
+				position: relative;
+				left: -10px;
+				float: left;
+			}
+		}
+		#tag li {
+			width: 120px;
+			height: 32px;
+			padding-top: 5px;
+			border-radius: 6px !important;
+			border: 1px solid rgb(245 150 9);
+			margin-left: 20px;
+			color: rgb(245 150 9);
+			font-size: 16px;
+			list-style-type: none;
+			text-align: center;
+
+		}
+
+		@media (max-width: 768px) {
+			#tag {
+				transform: scale(0.8);
+				display: flex;
+				margin-left: -50px;
+			}
+
+			.line_02 {
+				margin-bottom: 30px;
+			}
+
+			.weixin div.qrcode {
+				margin-top: -145px;
+				position: absolute;
+				margin-right: auto;
+				margin-left: auto;
+			}
+
+			.portfolio li {
+				width: 100%;
+			}
+
+			#tag li {}
+		}
+	</style>
+	<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=YucscdufpGHjsbbnhrjhrLBWFWsulcMq&s=1"></script>
+	<script type="text/javascript" src="../../../../Public/Static/Home/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../../Public/Static/Home/js/qrcode.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/css/qrcode.box.css">
+	<script src="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/js/jquery.min.js"></script>
+	<script src="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/js/jquery.qrcode.js"></script>
+	<script src="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/js/qrcode.js"></script>
+	<script src="../../../../Public/Static/Home/js/qrcodebox-master/qrcodebox/js/jquery.qrcode.box.js"></script>
+	<script type="text/javascript">
+		//分享二维码
+		var wz = "https://www.hollandshow.cn/Media2/index.html"
+		new QRCode(document.getElementById("qrcode"), wz); // 设置要生成二维码的链接
+		$(".qrcode").qrcodeBox({
+			title: "分享到微信朋友圈",
+			des: "“扫一扫” 即可分享",
+			width: 128,
+			height: 128,
+			qrcodeText: wz,
+			offsetX: 70,
+			offsetY: 100
+		});
+
+		// 使用 API
+		qrcode.clear();
+		qrcode.makeCode('new content');
+	</script>
+	<script type="text/javascript">
+		//分享到facebook
+		function shareToFB(title, url, picurl) {
+			var sharesinastring =
+					'http://www.facebook.com/sharer.php?title=' + title + '&url=' + url + '&content=utf-8&sourceUrl=' + url +
+					'&pic=' + picurl;
+			window.open(sharesinastring, 'newwindow', 'height=400,width=400,top=100,left=100');
+
+		}
+
+		function shareFacebook() {
+			shareToFB("荷蘭園巡禮", wz);
+		}
+		/*window.onload = function() //onload 事件句柄，文档装载结束时调用
+		{
+			var tag = document.getElementById("tag").children; //获取Tag下的li，即Tag标签
+			var content = document.getElementById("tagContent").children; //获取Tag标签对应的内容
+			tag[1].style.color = "white"
+			tag[1].style.backgroundColor = "rgb(245 150 9)"
+			content[1].style.display = "block"; //默认显示第一个标签的内容
+			var len = tag.length;
+			for (var i = 0; i < len; i++) //无论点击谁都能实现当前显示，其余隐藏
+			{
+				tag[i].index = i; //为何如此？（看下面解释）
+				tag[i].onclick = function() //0级DOM的事件句柄注册
+				{
+
+					for (var n = 0; n < len; n++)
+
+					{
+						tag[n].className = "";
+						content[n].style.display = "none";
+					} //首先将全部的div隐藏
+					tag[this.index].className = "current";
+					content[this.index].style.display = "block";
+					if (this.index == 1) {
+						tag[this.index].style.color = "white"
+						tag[this.index].style.backgroundColor = "rgb(245 150 9)"
+						tag[1].style.color = "rgb(245 150 9)"
+						tag[1].style.backgroundColor = "white"
+					} else {
+						tag[this.index].style.color = "white"
+						tag[this.index].style.backgroundColor = "rgb(245 150 9)"
+						tag[0].style.color = "rgb(245 150 9)"
+						tag[0].style.backgroundColor = "white"
+					}
+
+				}
+			}
+
+		}*/
+	</script>
+	<include file="common/footer" />

@@ -1,0 +1,10 @@
+[ 2020-11-17T18:20:33+08:00 ] 116.62.107.116 /index.php/?s=/admin/%5Cthink%5Capp/invokefunction&function=call_user_func&vars%5B0%5D=system&vars%5B1%5D=netstat%20-an
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+ERR: 無法載入控制器:\think\app
+

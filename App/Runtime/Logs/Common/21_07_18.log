@@ -1,0 +1,6 @@
+[ 2021-07-18T23:10:21+08:00 ] 27.124.45.147 /index.php?m=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+ERR: 無法載入模組:Test
+

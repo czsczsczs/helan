@@ -1,0 +1,10 @@
+[ 2021-06-18T20:45:01+08:00 ] 123.58.210.77 /admin/webadmin.php?mod=do&act=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+ERR: Controller can't be loaded:Webadmin.php
+
