@@ -154,12 +154,18 @@
 				<volist name="post" id="p_row">
 					<li class="swiper-slide" link="{:U('Posts/detail',array('id'=>$p_row['id']))}">
 						<div class="thumbnail-style">
-							<a href="{:U('Posts/detail',array('id'=>$p_row['id']))}">
+							<!-- <a href="{:U('Posts/detail',array('id'=>$p_row['id']))}">
 
 								<em class="overflow-hidden imgsize">
 									<img src="{$p_row['cover_width_300']}" alt="" />
 								</em>
-							</a>
+							</a> -->
+							<div class="thumbnail-img">
+								<div class="overflow-hidden imgsize">
+									<img style="" src="{$p_row['cover_width_300']}" alt="" />
+								</div>
+								<a class="btn-more hover-effect" href="{:U('Posts/detail',array('id'=>$p_row['id']))}">查看詳情+</a>
+							</div>
 							<!-- <span>
 								<strong id="index_overflow" title="{$p_row['title']}" >{$p_row['title']}</strong>
 							</span> -->
@@ -187,14 +193,20 @@
 				<volist name="shop" id="s_row">
 					<li class="swiper-slide" link="{:U('Shop/detail',array('id'=>$s_row['id']))}">
 						<div class="thumbnail-style">
-							<a href="{:U('Shop/detail',array('id'=>$s_row['id']))}">
+							<!-- <a href="{:U('Shop/detail',array('id'=>$s_row['id']))}">
 								<em class="overflow-hidden imgsize">
 									<img src="{$s_row['cover_width_300']}" alt="" style="height: 205px;" />
 								</em>
-							</a>
+							</a> -->
 							<!-- <span>
 								<strong id="index_overflow" title="{$s_row['title']}" >{$s_row['title']}</strong>
 							</span> -->
+							<div class="thumbnail-img">
+								<div class="overflow-hidden imgsize">
+									<img style="" src="{$s_row['cover_width_300']}" alt="" />
+								</div>
+								<a class="btn-more hover-effect" href="{:U('Shop/detail',array('id'=>$s_row['id']))}">查看詳情+</a>
+							</div>
 							<h3 id="index_overflow" title="{$s_row['title']}">
 								<a class="hover-effect" href="{:U('Shop/detail',array('id'=>$s_row['id']))}">{$s_row['title']}</a>
 							</h3>
@@ -319,17 +331,17 @@
 		margin-right: 10px;
 	}
 	.logodiv1{
-		border: 2px solid #ccc;
+		/* border: 2px solid #ccc; */
 		width: 283px;
 		height: 100px;
 	}
 	.logodiv2{
-		border: 2px solid #ccc;
+		/* border: 2px solid #ccc; */
 		width: 283px;
 		height: 100px;
 	}
 	.logodiv3{
-		border: 2px solid #ccc;
+		/* border: 2px solid #ccc; */
 		width: 283px;
 		height: 100px;
 	}
@@ -371,18 +383,18 @@
 			margin-right: 10px;
 		}
 		.logodiv1{
-			border: 2px solid #ccc;
+			/* border: 2px solid #ccc; */
 			width: 120px;
 			height: 40px;
 		}
 		.logodiv2{
-			border: 2px solid #ccc;
+			/* border: 2px solid #ccc; */
     		width: 120px;
     		height: 40px;
 
 		}
 		.logodiv3{
-			border: 2px solid #ccc;
+			/* border: 2px solid #ccc; */
 			width: 110px;
 			height: 40px;
 		}
